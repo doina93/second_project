@@ -1,0 +1,817 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/all.css" rel="stylesheet">
+    <link href="styles/owl.carousel.min.css" rel="stylesheet">
+    <link href="styles/owl.theme.default.min.css" rel="stylesheet">
+    <link href="styles/top-slider.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/owl.carousel.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="top-header">
+            <div class="top-header-col-left">
+                <div class="logo">
+                    <img src="assets/logo.jpg" alt="book logo">
+                    <div class="logo-text">Bookish</div>
+                </div>
+            </div>
+            <div class="top-header-col-mid">
+                <div class="search-container">
+                    <form>
+                        <input class="search-bar" type="text" placeholder="Cautati in intregul magazin incepand de aici.." name="search">
+                        <button class="submit-button" type="submit">Cautare</button>
+                    </form>
+                </div>
+            </div>
+            <div class="top-header-col-right">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="cart-icon" data-count="0 ">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="user-cart">
+                        <p>Cosul meu:</p>
+                        <p>0,00 RON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navbar-id" class="navbar">
+            <div class="container">
+                <div class="dropdown">
+                    <button class="dropbtn">Books
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">The Arts</a>
+                            <a href="#">English Language Teaching</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Society and Social Sciences</a>
+                            <a href="#">The Arts</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">English Language Teaching</a>
+                            <a href="#">Society and Social Sciences</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">English Language Teaching</a>
+                            <a href="#">Society and Social Sciences</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="#">Bestsellers</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">E.L.T.
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Accesorii & Cadouri
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Jocuri</a>
+                            <a href="#">Miniaturi si Kituri</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Agende si Jurnale</a>
+                            <a href="#">Jocuri</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Miniaturi si Kituri</a>
+                            <a href="#">Agende si Jurnale</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Jocuri</a>
+                            <a href="#">Miniaturi si Kituri</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Harry Potter
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Game of Thrones
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">A Song of Ice and Fire</a>
+                            <a href="#">S-ar putea sa-ti placa si...</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">In timp ce astepti Winds of Winter</a>
+                            <a href="#">A Song of Ice and Fire</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">S-ar putea sa-ti placa si...</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">In timp ce astepti Winds of Winter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Manga and Comics
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Noutati</a>
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Noutati</a>
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                            <a href="#">Noutati</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-bar">
+            <div id="toggle-button" class="toggle-button"><i class="fas fa-bars"></i></div>
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="book logo">
+                <div class="logo-text">Bookish</div>
+            </div>
+            <div class="mobile-cart-icon">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li class="menu-item">
+                    <a href="#">Books</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Bestsellers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">E.L.T.</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Accesorii & Cadouri</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Harry Potter</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Game of Thrones</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Manga & Comics</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <nav class="category-title">
+        <h1>The Arts</h1>
+    </nav>
+    <section class="products-grid">
+        <div class="sidebar">
+            <h1 class="sidebar-title">Subcategorii</h1>
+            <a href="#">Culinary</a>
+            <a href="#">Painting</a>
+            <a href="#">Sculpture</a>
+            <a href="#">Sewing</a>
+            <a href="#">Dance</a>
+            <a href="#">Classical Music</a>
+            <a href="#">Contemporary Music</a>
+            <a href="#">Literature</a>
+            <a href="#">Prose</a>
+            <a href="#">Poetry</a>
+            <div class="sort">
+                <div class="category-sort">
+                    <label>Filter by:</label>
+                    <select>
+                        <option value="/">All Books</option>
+                        <option value="/">Author</option>
+                        <option value="/">Genre</option>
+                        <option value="/">Year</option>
+                    </select>
+                </div>
+                <div class="category-sort">
+                    <label>Sort by:</label>
+                    <select>
+                        <option value="/">Featured</option>
+                        <option value="/">Newest</option>
+                        <option value="/">Price</option>
+                        <option value="/">Oldest</option>
+                    </select>
+                </div>
+                <div class="checkbox-filter">
+                    <h1 class="sidebar-title">Filters</h1>
+                    <h1 class="sidebar-subtitle">Generic</h1>
+                    <label>
+                        <input type="checkbox" name="title" />
+                        Title
+                    </label>
+                    <label>
+                        <input type="checkbox" name="author" />
+                        Author
+                    </label>
+                    <label>
+                        <input type="checkbox" name="genre" />
+                        Genre
+                    </label>
+                    <label>
+                        <input type="checkbox" name="year" />
+                        Year
+                    </label>
+                    <h1 class="sidebar-subtitle">Translator</h1>
+                    <label>
+                        <input type="checkbox" name="matthew" />
+                        Matthew Montgomery
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lev" />
+                        Lev Tolstoy
+                    </label>
+                    <label>
+                        <input type="checkbox" name="neruda" />
+                        Pablo Neruda
+                    </label>
+                    <label>
+                        <input type="checkbox" name="kundera" />
+                        Milan Kundera
+                    </label>
+                    <h1 class="sidebar-subtitle">Language</h1>
+                    <label>
+                        <input type="checkbox" name="english" />
+                        English
+                    </label>
+                    <label>
+                        <input type="checkbox" name="french" />
+                        French
+                    </label>
+                    <label>
+                        <input type="checkbox" name="swahili" />
+                        Swahili
+                    </label>
+                    <label>
+                        <input type="checkbox" name="russian" />
+                        Russian
+                    </label>
+                    <h1 class="sidebar-subtitle">Genre</h1>
+                    <label>
+                        <input type="checkbox" name="romance" />
+                        Romance
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sports" />
+                        Sports
+                    </label>
+                    <label>
+                        <input type="checkbox" name="fiction" />
+                        Fiction
+                    </label>
+                    <label>
+                        <input type="checkbox" name="fantasy" />
+                        Fantasy
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-sidebar-wrap">
+            <div class="mobile-sidebar mobile-sidebar-block" id="mySidebar">
+                <button onclick="sidebar_close()" class="sidebar-item sidebar-button font-large">Close &times;</button>
+                <a href="#" class="sidebar-item sidebar-button">Culinary</a>
+                <a href="#" class="sidebar-item sidebar-button">Painting</a>
+                <a href="#" class="sidebar-item sidebar-button">Sculpture</a>
+                <a href="#" class="sidebar-item sidebar-button">Sewing</a>
+                <a href="#" class="sidebar-item sidebar-button">Dance</a>
+                <a href="#" class="sidebar-item sidebar-button">Classical Music</a>
+                <a href="#" class="sidebar-item sidebar-button">Contemporary Music</a>
+                <a href="#" class="sidebar-item sidebar-button">Literature</a>
+                <a href="#" class="sidebar-item sidebar-button">Prose</a>
+                <a href="#" class="sidebar-item sidebar-button">Poetry</a>
+                <div class="checkbox-filter">
+                    <h1 class="sidebar-title">Filters</h1>
+                    <h1 class="sidebar-subtitle">Generic</h1>
+                    <label>
+                        <input type="checkbox" name="title" />
+                        Title
+                    </label>
+                    <label>
+                        <input type="checkbox" name="author" />
+                        Author
+                    </label>
+                    <label>
+                        <input type="checkbox" name="genre" />
+                        Genre
+                    </label>
+                    <label>
+                        <input type="checkbox" name="year" />
+                        Year
+                    </label>
+                    <h1 class="sidebar-subtitle">Translator</h1>
+                    <label>
+                        <input type="checkbox" name="matthew" />
+                        Matthew Montgomery
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lev" />
+                        Lev Tolstoy
+                    </label>
+                    <label>
+                        <input type="checkbox" name="neruda" />
+                        Pablo Neruda
+                    </label>
+                    <label>
+                        <input type="checkbox" name="kundera" />
+                        Milan Kundera
+                    </label>
+                    <h1 class="sidebar-subtitle">Language</h1>
+                    <label>
+                        <input type="checkbox" name="english" />
+                        English
+                    </label>
+                    <label>
+                        <input type="checkbox" name="french" />
+                        French
+                    </label>
+                    <label>
+                        <input type="checkbox" name="swahili" />
+                        Swahili
+                    </label>
+                    <label>
+                        <input type="checkbox" name="russian" />
+                        Russian
+                    </label>
+                    <h1 class="sidebar-subtitle">Genre</h1>
+                    <label>
+                        <input type="checkbox" name="romance" />
+                        Romance
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sports" />
+                        Sports
+                    </label>
+                    <label>
+                        <input type="checkbox" name="fiction" />
+                        Fiction
+                    </label>
+                    <label>
+                        <input type="checkbox" name="fantasy" />
+                        Fantasy
+                    </label>
+                </div>
+            </div>
+            <div class="collapsed-mobile-sidebar">
+                <button class="sidebar-button collapsed-mobile-sidebar font-xlarge" onclick="sidebar_open()"><i class="fas fa-filter"></i></button>
+                <div class="sidebar-container">
+                    <h1>Subcategorii</h1>
+                </div>
+            </div>
+        </div>
+        <div class="products-wrap">
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="product.html">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="product.html">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="product.html">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="product.html">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <a href="#">
+                        <img src="assets/product.jpg" alt="product image">
+                    </a>
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+        </div>
+    </section>
+    <div class="paginare">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <footer>
+        <div class="footer-cols">
+            <div class="footer-row">
+                <div class="ftr-col-left">
+                    <div class="logo-wrap">
+                        <div class="logo">
+                            <img src="assets/logo.jpg" alt="book logo">
+                            <div class="logo-text">Bookish</div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <p>BOOKISH ECOMM SRL</p>
+                        <p>Str. Loremenilor nr.1, birou X ap.XX, Brasov, 5000NN</p>
+                    </div>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Produse</div>
+                    <ul class="footer-col-mid-list">
+                        <li>
+                            <a href="#">Carti</a>
+                        </li>
+                        <li>
+                            <a href="#">English Language Teaching</a>
+                        </li>
+                        <li>
+                            <a href="#">Manga & Comics</a>
+                        </li>
+                        <li>
+                            <a href="#">Jocuri</a>
+                        </li>
+                        <li>
+                            <a href="#">Accesorii & Cadouri</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Resurse</div>
+                    <ul class="footer-col-mid-list">
+                        <li>
+                            <a href="#">Politica de confidentialitate</a>
+                        </li>
+                        <li>
+                            <a href="#">Termeni Legali</a>
+                        </li>
+                        <li>
+                            <a href="#">Despre Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">ANPC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Contul Meu</div>
+                    <ul class="footer-col-mid-list">
+                        <li>    
+                            <a href="#">Contul meu</a>
+                        </li>
+                        <li>
+                            <a href="#">Comenzile mele</a>
+                        </li>
+                        <li>
+                            <a href="#">Lista de dorinte</a>
+                        </li>
+                        <li>
+                            <a href="#">Cosul meu</a>
+                        </li>
+                        <li>
+                            <a href="#">Finalizare comanda</a>
+                        </li>
+                        <li>
+                            <a href="#">Adresele mele</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Utile</div>
+                    <ul class="footer-col-mid-list">
+                        <li>    
+                            <a href="#">Carte la comanda</a>
+                        </li>
+                        <li>
+                            <a href="#">Detalii transport</a>
+                        </li>
+                        <li>
+                            <a href="#">Giftcard</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="ftr-col-right">
+                    <div class="footer-col-mid-title">Aboneaza-te la newsletter</div>
+                    <div class="ftr-form">
+                        <form>
+                            <input name="email" type="email" placeholder="Enter your e-mail">
+                            <button class="submit-button" title="Abonare" type="submit">Abonare</button>
+                        </form>
+                    </div>
+                    <div class="bookish-help">
+                        <button class="bookish submit-button" type="submit">Bookish Help</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <p>Copyright &#169; <a href="#">BOOKISH</a>.Toate drepturile rezervate. Developed by <a href="#">bencode.xx</a></p>
+        </div>
+        <div class="scroll-up">
+            <a href="#header" target="_self" class="float">
+                <i class="fas fa-arrow-up btn-float"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function sidebar_open() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function sidebar_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
