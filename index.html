@@ -1,0 +1,976 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/all.css" rel="stylesheet">
+    <link href="styles/owl.carousel.min.css" rel="stylesheet">
+    <link href="styles/owl.theme.default.min.css" rel="stylesheet">
+    <link href="styles/top-slider.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/owl.carousel.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="top-header">
+            <div class="top-header-col-left">
+                <div class="logo">
+                    <img src="assets/logo.jpg" alt="book logo">
+                    <div class="logo-text">Bookish</div>
+                </div>
+            </div>
+            <div class="top-header-col-mid">
+                <div class="search-container">
+                    <form>
+                        <input class="search-bar" type="text" placeholder="Cautati in intregul magazin incepand de aici.." name="search">
+                        <button class="submit-button" type="submit">Cautare</button>
+                    </form>
+                </div>
+            </div>
+            <div class="top-header-col-right">
+                <div class="user-info">
+                    <div class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="cart-icon" data-count="0 ">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="user-cart">
+                        <p>Cosul meu:</p>
+                        <p>0,00 RON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navbar-id" class="navbar">
+            <div class="container">
+                <div class="dropdown">
+                    <button class="dropbtn">Books
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="category.html">The Arts</a>
+                            <a href="#">English Language Teaching</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Society and Social Sciences</a>
+                            <a href="#">The Arts</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">English Language Teaching</a>
+                            <a href="#">Society and Social Sciences</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">English Language Teaching</a>
+                            <a href="#">Society and Social Sciences</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="#">Bestsellers</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">E.L.T.
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">How to teach</a>
+                            <a href="#">Gramatica si lexic</a>
+                            <a href="#">Cursuri de Engleza Generala</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Accesorii & Cadouri
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Jocuri</a>
+                            <a href="#">Miniaturi si Kituri</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Agende si Jurnale</a>
+                            <a href="#">Jocuri</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Miniaturi si Kituri</a>
+                            <a href="#">Agende si Jurnale</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Jocuri</a>
+                            <a href="#">Miniaturi si Kituri</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Harry Potter
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Seria Harry Potter</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                            <a href="#">Just Like Harry</a>
+                            <a href="#">Carti din Biblioteca Hogwarts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Game of Thrones
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">A Song of Ice and Fire</a>
+                            <a href="#">S-ar putea sa-ti placa si...</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">In timp ce astepti Winds of Winter</a>
+                            <a href="#">A Song of Ice and Fire</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">S-ar putea sa-ti placa si...</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">In timp ce astepti Winds of Winter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Manga and Comics
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="grid-item">
+                            <a href="#">Noutati</a>
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Noutati</a>
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                            <a href="#">Noutati</a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="#">Volumele Death Note</a>
+                            <a href="#">Volumele Bleach</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-bar">
+            <div id="toggle-button" class="toggle-button"><i class="fas fa-bars"></i></div>
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="book logo">
+                <div class="logo-text">Bookish</div>
+            </div>
+            <div class="mobile-cart-icon">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li class="menu-item">
+                    <a href="#">Books</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Bestsellers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">E.L.T.</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Accesorii & Cadouri</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Harry Potter</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Game of Thrones</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Manga & Comics</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="slideshow-section">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="assets/s1.jpg" style="width:100%">
+                <div class="text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="assets/s2.jpg" style="width:100%">
+                <div class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="assets/s3.jpg" style="width:100%">
+                <div class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section class="banner-section">
+        <div class="delivery-ad">
+            <div class="delivery-ad-col">
+                <i class="fas fa-gift"></i>
+                <p class="delivery-ad-title">Impachetare gratuita</p>
+                <p class="delivery-ad-text">Daca vrei sa faci un cadou. Il impachetam gratuit.</p>
+            </div>
+            <div class="delivery-ad-col">
+                <i class="fas fa-truck"></i>
+                <p class="delivery-ad-title">Impachetare gratuita</p>
+                <p class="delivery-ad-text">Daca vrei sa faci un cadou. Il impachetam gratuit.</p>
+            </div>
+            <div class="delivery-ad-col">
+                <i class="fas fa-bicycle"></i>
+                <p class="delivery-ad-title">Impachetare gratuita</p>
+                <p class="delivery-ad-text">Daca vrei sa faci un cadou. Il impachetam gratuit.</p>
+            </div>
+        </div>
+        <div class="banner">
+            <p class="banner-text">Duis aute irure dolor in reprehenderit.</p>
+        </div>
+    </section>
+    <section class="products-section">
+        <div class="products-row">
+            <div class="mobile-products-row-visible">
+                <div class="no-product-card">
+                    <div class="no-prod-card-content">
+                        <p>de <a href="#">Bartemius Crouch</a>, 
+                            <a href="#">Anabelle Fletcher</a>, 
+                            <a href="#">J.K. Rowling</a>, 
+                            <a href="#">Michael Connelly</a> si altii.</p>
+                        <div class="prev-next">
+                            <div class="prev-button">
+                                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            </div>
+                            <div class="next-button">
+                                <a href="#"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-prod-cards-row">
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>    
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-products-row-hidden">
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+            </div>
+        </div>
+        <div class="products-row">
+            <div class="mobile-products-row-hidden">
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>    
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+            </div>
+            <div class="right-mobile-products-row-visible">
+                <div class="mobile-prod-cards-row">
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                </div>
+                <div class="no-product-card right">
+                    <div class="no-prod-card-content">
+                        <p><a href="#">harum quidem rerum facilis</a></p>
+                        <div class="prev-next">
+                            <div class="prev-button">
+                                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            </div>
+                            <div class="next-button">
+                                <a href="#"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-box-ad">
+        <div class="img-container">
+            <p class="we-recommend">we recommend</p>
+            <div class="text-box-prev-button">
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+            </div>
+            <div class="text-box">
+                <img src="assets/text-box.jpg" alt="promotional image">
+                <div class="text-box-wrap">
+                    <p class="text-box-title">
+                        <a href="#">ratione voluptatem - sequi nesciunt</a>
+                    </p>
+                    <p class="text-box-author">
+                        <a href="#">Crouch</a>
+                    </p>
+                    <div class="text-box-text">
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                    </div>
+                </div>
+                <div class="text-box-button">
+                    <a href="#">detalii</a>
+                </div>
+            </div>
+            <div class="text-box-next-button">
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="products-section">
+        <div class="products-row">
+            <div class="mobile-products-row-hidden">
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>    
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+            </div>
+            <div class="right-mobile-products-row-visible">
+                <div class="mobile-prod-cards-row">
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                </div>
+                <div class="no-product-card right">
+                    <div class="no-prod-card-content">
+                        <p><a href="#">harum quidem rerum facilis</a></p>
+                        <div class="prev-next">
+                            <div class="prev-button">
+                                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            </div>
+                            <div class="next-button">
+                                <a href="#"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top-sales-row">
+        <div class="top-sales-carousel">
+            <div class="large-12 columns">
+                <div class="carousel-title">Top Sales</div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="item-no">1</div>
+                        <img src="assets/product1.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">2</div>
+                        <img src="assets/product2.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">3</div>
+                        <img src="assets/product3.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">4</div>
+                        <img src="assets/product4.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">5</div>
+                        <img src="assets/product5.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">6</div>
+                        <img src="assets/product6.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">7</div>
+                        <img src="assets/product7.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">8</div>
+                        <img src="assets/product8.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">9</div>
+                        <img src="assets/product9.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">10</div>
+                        <img src="assets/product10.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">11</div>
+                        <img src="assets/product11.jpg" alt="product image">
+                    </div>
+                    <div class="item">
+                        <div class="item-no">12</div>
+                        <img src="assets/product12.jpg" alt="product image">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="products-section">
+        <div class="products-row">
+            <div class="mobile-products-row-hidden">
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>    
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+                <div class="product-card">
+                    <div class="img-product-card">
+                        <img src="assets/product.jpg" alt="product image">
+                    </div>
+                    <p class="product-card-title">
+                        <a href="#">Lorem Ipsum Dolor</a>
+                    </p>
+                    <p class="product-card-author">
+                        <a href="#">Bartemius Crouch</a>
+                    </p>
+                    <p class="product-card-price">50.00 RON</p>
+                </div>
+            </div>
+            <div class="right-mobile-products-row-visible">
+                <div class="mobile-prod-cards-row">
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="img-product-card">
+                            <img src="assets/product.jpg" alt="product image">
+                        </div>
+                        <p class="product-card-title">
+                            <a href="#">Lorem Ipsum Dolor</a>
+                        </p>
+                        <p class="product-card-author">
+                            <a href="#">Bartemius Crouch</a>
+                        </p>
+                        <p class="product-card-price">50.00 RON</p>
+                    </div>
+                </div>
+                <div class="no-product-card right">
+                    <div class="no-prod-card-content">
+                        <p><a href="#">harum quidem rerum facilis</a></p>
+                        <div class="prev-next">
+                            <div class="prev-button">
+                                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            </div>
+                            <div class="next-button">
+                                <a href="#"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-row">
+            <div class="mobile-products-row-visible">
+            <div class="no-product-card">
+                <div class="no-prod-card-content">
+                    <p>de <a href="#">Bartemius Crouch</a>, 
+                        <a href="#">Anabelle Fletcher</a>, 
+                        <a href="#">J.K. Rowling</a>, 
+                        <a href="#">Michael Connelly</a> si altii.</p>
+                    <div class="prev-next">
+                        <div class="prev-button">
+                            <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        </div>
+                        <div class="next-button">
+                            <a href="#"><i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="mobile-prod-cards-row">
+            <div class="product-card">
+                <div class="img-product-card">
+                    <img src="assets/product.jpg" alt="product image">
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>    
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <img src="assets/product.jpg" alt="product image">
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+                </div>
+            </div>
+            <div class="mobile-products-row-hidden">
+            <div class="product-card">
+                <div class="img-product-card">
+                    <img src="assets/product.jpg" alt="product image">
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            <div class="product-card">
+                <div class="img-product-card">
+                    <img src="assets/product.jpg" alt="product image">
+                </div>
+                <p class="product-card-title">
+                    <a href="#">Lorem Ipsum Dolor</a>
+                </p>
+                <p class="product-card-author">
+                    <a href="#">Bartemius Crouch</a>
+                </p>
+                <p class="product-card-price">50.00 RON</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="banner">
+            <p class="banner-text">Duis aute irure dolor in reprehenderit.</p>
+        </div>
+        <div class="blog-container-title">
+                <p>News from our blog</p>
+            </div>
+        <div class="blog-container">
+            <div class="blog-column">
+                <div class="blog-post">
+                    <a href="#"><img src="assets/blog.jpg"></a>
+                    <div class="blog-post-text">
+                        <h5 class="blog-post-title">
+                            <a href="#">Nemo enim ipsam voluptatem quia</a>
+                        </h5>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <a href="#"><img src="assets/blog2.jpg"></a>
+                    <div class="blog-post-text">
+                    <h5 class="blog-post-title">
+                        <a href="#">Voluptate velit esse quam nihil molestiae consequatur</a>
+                    </h5>
+                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="blog-column">
+                <div class="blog-post">
+                    <a href="#"><img src="assets/blog3.jpg"></a>
+                    <div class="blog-post-text">
+                    <h5 class="blog-post-title">
+                        <a href="#">Quis nostrum exercitationem ullam corporis suscipit</a>
+                    </h5>
+                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <a href="#"><img src="assets/blog4.jpg"></a>
+                    <div class="blog-post-text">
+                    <h5 class="blog-post-title">
+                        <a href="#">Vel illum qui dolorem eum fugiat quo voluptas</a>
+                    </h5>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-cols">
+            <div class="footer-row">
+                <div class="ftr-col-left">
+                    <div class="logo-wrap">
+                        <div class="logo">
+                            <img src="assets/logo.jpg" alt="book logo">
+                            <div class="logo-text">Bookish</div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <p>BOOKISH ECOMM SRL</p>
+                        <p>Str. Loremenilor nr.1, birou X ap.XX, Brasov, 5000NN</p>
+                    </div>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Produse</div>
+                    <ul class="footer-col-mid-list">
+                        <li>
+                            <a href="#">Carti</a>
+                        </li>
+                        <li>
+                            <a href="#">English Language Teaching</a>
+                        </li>
+                        <li>
+                            <a href="#">Manga & Comics</a>
+                        </li>
+                        <li>
+                            <a href="#">Jocuri</a>
+                        </li>
+                        <li>
+                            <a href="#">Accesorii & Cadouri</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Resurse</div>
+                    <ul class="footer-col-mid-list">
+                        <li>
+                            <a href="#">Politica de confidentialitate</a>
+                        </li>
+                        <li>
+                            <a href="#">Termeni Legali</a>
+                        </li>
+                        <li>
+                            <a href="#">Despre Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">ANPC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Contul Meu</div>
+                    <ul class="footer-col-mid-list">
+                        <li>    
+                            <a href="#">Contul meu</a>
+                        </li>
+                        <li>
+                            <a href="#">Comenzile mele</a>
+                        </li>
+                        <li>
+                            <a href="#">Lista de dorinte</a>
+                        </li>
+                        <li>
+                            <a href="#">Cosul meu</a>
+                        </li>
+                        <li>
+                            <a href="#">Finalizare comanda</a>
+                        </li>
+                        <li>
+                            <a href="#">Adresele mele</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col-mid">
+                    <div class="footer-col-mid-title">Utile</div>
+                    <ul class="footer-col-mid-list">
+                        <li>    
+                            <a href="#">Carte la comanda</a>
+                        </li>
+                        <li>
+                            <a href="#">Detalii transport</a>
+                        </li>
+                        <li>
+                            <a href="#">Giftcard</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="ftr-col-right">
+                    <div class="footer-col-mid-title">Aboneaza-te la newsletter</div>
+                    <div class="ftr-form">
+                        <form>
+                            <input name="email" type="email" placeholder="Enter your e-mail">
+                            <button class="submit-button" title="Abonare" type="submit">Abonare</button>
+                        </form>
+                    </div>
+                    <div class="bookish-help">
+                        <button class="bookish submit-button" type="submit">Bookish Help</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <p>Copyright &#169; <a href="#">BOOKISH</a>.Toate drepturile rezervate. Developed by <a href="#">bencode.xx</a></p>
+        </div>
+        <div class="scroll-up">
+            <a href="#header" target="_self" class="float">
+                <i class="fas fa-arrow-up btn-float"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $('#toggle-button').on('click', function () {
+                $('#mobile-menu').toggle();
+            });
+        });
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+// Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+// Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false,
+                        margin: 20
+                    }
+                }
+            })
+        })
+    </script>
+</body>
