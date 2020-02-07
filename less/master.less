@@ -1,0 +1,59 @@
+@special-color: #eb9478;
+@label-color: #8e2807;
+
+.vertical-center() {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flex-center() {
+    display: flex;
+    justify-content: center;
+}
+.checkout-container {
+    background-color: @special-color;
+    width: 700px;
+    margin: 5rem auto;
+    box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    padding: 5rem 6rem;
+    font-family: 'Montserrat';
+    .flex-center
+}
+.row-title {
+    display: inline-flex;
+    color: @label-color;
+}
+.row-title i {
+    padding: 10px 10px 10px 0;
+    .vertical-center
+}
+.single-input label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: @label-color;
+}
+.single-input input {
+    border-radius: 5px;
+    border: white;
+    margin-right: 20px;
+    height: 25px;
+}
+.single-input {
+    padding-bottom: 10px;
+}
+.form-field {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+.checkout-row {
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../webfonts/Montserrat-Regular.ttf");
+}
